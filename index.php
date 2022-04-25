@@ -21,6 +21,7 @@
                 <li><a href="index.php">Home</a></li>
                 <li><a href="profile.php">Profile</a></li>
                 <li><a href="calculator.php">Calculator</a></li>                
+                <li><a href="table.php">Table</a></li>
                 <li class="services">
                     <a href="#">Category</a>
                     <ul class="dropdown">
