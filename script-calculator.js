@@ -29,6 +29,9 @@ function bagi(val1, val2) {
 function kali(val1, val2) {
     return val1 * val2;
 }
+function pangkat(val1, val2) {
+    return (Math.pow(val1 , val2)) ;
+}
 function result(val1, val2) {
     switch (oper) {
         case "+":
@@ -42,7 +45,10 @@ function result(val1, val2) {
             break;
         case "%":
             return modulo(val1, val2); 
-            break;            
+            break;
+        case "^":
+            return pangkat(val1, val2); 
+            break;                        
         case "/":
             if(val2==0){
                 alert("enter an other value");

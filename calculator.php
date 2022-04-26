@@ -32,7 +32,7 @@
             <button type="button" value="8" class="btn" onclick="inval(this.value)">8</button>
             <button type="button" value="9" class="btn" onclick="inval(this.value)">9</button>
             <button type="button" value="-" class="btn" onclick="inop(this.value)">-</button>
-            <button type="button" value="." class="btn" onclick="inval(this.value)">.</button>
+            <button type="button" value="^" class="btn" onclick="inop(this.value)">^</button>
             <button type="button" value="0" class="btn" onclick="inval(this.value)">0</button>
             <button  type="button" value="=" class="btn span-two" onclick="calculate()">=</button>
         </div>
