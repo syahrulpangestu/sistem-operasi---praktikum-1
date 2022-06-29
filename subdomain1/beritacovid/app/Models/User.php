@@ -19,10 +19,17 @@ class User extends Authenticatable
      */
     protected $fillable = [
         'name',
-        'email',
-        'password',
+        'nim',
+        'jurusan',
     ];
-
+    public function account()
+    {
+        return $this->hasOne(Account::class);
+    }
+    public function berita()
+    {
+        return $this->hasMany(Account::class);
+    }
     /**
      * The attributes that should be hidden for serialization.
      *

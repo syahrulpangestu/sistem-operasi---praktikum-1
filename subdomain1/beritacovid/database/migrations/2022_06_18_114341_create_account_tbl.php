@@ -15,7 +15,7 @@ class CreateAccountTbl extends Migration
     {
         Schema::create('accounts', function (Blueprint $table) {
             $table->id();
-            $table->string('nama');
+            $table->string('username');
             $table->string('password');
             $table->unsignedbigInteger('user_id');
             $table->foreign('user_id')->references('id')->on('users');            

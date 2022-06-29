@@ -14,7 +14,7 @@
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="{{asset('assets/js/script-calculator.js')}}"></script>
     <script src="{{asset('assets/js/table.js')}}"></script>
-    <title>Document</title>
+    <title>@yield('title')</title>
 </head>
 <style>
 .swiper {

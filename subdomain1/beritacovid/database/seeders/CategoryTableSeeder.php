@@ -15,20 +15,26 @@ class CategoryTableSeeder extends Seeder
     public function run()
     {
         DB::table('categories')->insert([
-        	'id' => 2,
+        	'id' => 1,
         	'nama_category' => 'Breaking News',
         	'created_at' => NOW(),
         	'updated_at' => NOW()
         ]);
     	DB::table('categories')->insert([
-        	'id' => 3,
+        	'id' => 2,
         	'nama_category' => "Education",
         	'created_at' => NOW(),
         	'updated_at' => NOW()
         ]);
     	DB::table('categories')->insert([
-        	'id' => 4,
+        	'id' => 3,
         	'nama_category' => "Preventing",
+        	'created_at' => NOW(),
+        	'updated_at' => NOW()
+        ]);
+		DB::table('categories')->insert([
+        	'id' => 4,
+        	'nama_category' => "Update Covid",
         	'created_at' => NOW(),
         	'updated_at' => NOW()
         ]);

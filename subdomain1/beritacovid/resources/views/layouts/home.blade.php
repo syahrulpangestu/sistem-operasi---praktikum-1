@@ -1,4 +1,5 @@
 @extends('master')
+@section('title', 'Home')
 @section('content')
 <div class="containers">
     <div class="rows">

@@ -17,7 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/home', 'App\Http\Controllers\BeritaController@home');
+// Route::get('/home', 'App\Http\Controllers\BeritaController@home');
+Route::get('/', 'App\Http\Controllers\BeritaController@home');
 Route::get('/home/profile', 'App\Http\Controllers\BeritaController@profile');
 Route::get('/home/calculator', 'App\Http\Controllers\BeritaController@calculator');
 Route::get('/home/table', 'App\Http\Controllers\BeritaController@table');

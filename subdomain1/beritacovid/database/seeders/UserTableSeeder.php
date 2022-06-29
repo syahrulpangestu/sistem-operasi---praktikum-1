@@ -15,7 +15,7 @@ class UserTableSeeder extends Seeder
     public function run()
     {
         DB::table('users')->insert([
-        	'id' => 2,
+        	'id' => 1,
         	'nama' => 'Pangestu Cihuy',
             'nim' => '202010370311299',
             'jurusan' => 'Informatika',
@@ -23,7 +23,7 @@ class UserTableSeeder extends Seeder
         	'updated_at' => NOW()
         ]);
     	DB::table('users')->insert([
-        	'id' => 3,
+        	'id' => 2,
         	'nama' => 'Putri Party',
             'nim' => '202010370311299',
             'jurusan' => 'Informatika',
@@ -31,8 +31,16 @@ class UserTableSeeder extends Seeder
         	'updated_at' => NOW()
         ]);
     	DB::table('users')->insert([
-        	'id' => 4,
+        	'id' => 3,
         	'nama' => 'Cihuy Laravel',
+            'nim' => '202010370311299',
+            'jurusan' => 'Informatika',
+        	'created_at' => NOW(),
+        	'updated_at' => NOW()
+        ]);
+        DB::table('users')->insert([
+        	'id' => 4,
+        	'nama' => 'Hah Laravel',
             'nim' => '202010370311299',
             'jurusan' => 'Informatika',
         	'created_at' => NOW(),

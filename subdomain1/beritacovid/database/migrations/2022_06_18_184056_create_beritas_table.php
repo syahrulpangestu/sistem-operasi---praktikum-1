@@ -17,6 +17,7 @@ class CreateBeritasTable extends Migration
             $table->id();
             $table->string('judul');
             $table->string('deskripsi');
+            $table->string('image');
             $table->unsignedbigInteger('user_id');
             $table->foreign('user_id')->references('id')->on('users');
             $table->unsignedbigInteger('category_id');

@@ -15,8 +15,16 @@ class AccountTableSeeder extends Seeder
     public function run()
     {
         DB::table('accounts')->insert([
-        	'id' => 2,
+        	'id' => 1,
         	'username' => 'Breaking News',
+            'password' => 'password',
+            'user_id' => 1,
+        	'created_at' => NOW(),
+        	'updated_at' => NOW()
+        ]);
+    	DB::table('accounts')->insert([
+        	'id' => 2,
+        	'username' => "Education",
             'password' => 'password',
             'user_id' => 2,
         	'created_at' => NOW(),
@@ -24,17 +32,17 @@ class AccountTableSeeder extends Seeder
         ]);
     	DB::table('accounts')->insert([
         	'id' => 3,
-        	'username' => "Education",
+        	'username' => "Preventing",
             'password' => 'password',
             'user_id' => 3,
         	'created_at' => NOW(),
         	'updated_at' => NOW()
         ]);
-    	DB::table('accounts')->insert([
+        DB::table('accounts')->insert([
         	'id' => 4,
-        	'username' => "Preventing",
+        	'username' => "Breaking News",
             'password' => 'password',
-            'user_id' => 4,
+            'user_id' => 3,
         	'created_at' => NOW(),
         	'updated_at' => NOW()
         ]);

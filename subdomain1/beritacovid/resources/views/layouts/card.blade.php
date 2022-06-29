@@ -2,8 +2,8 @@
 <div class="col-4">
     <div class="cards">
         <div class="card-image-top">
-            <img src="{{url('assets/images/'.$value->image)}}" alt="" srcset="">
-            {{-- <img src="{{ url('storage/app/'.$value->image) }}" alt="" srcset=""> --}}
+            {{-- <img src="{{url('assets/images/'.$value->image)}}" alt="" srcset=""> --}}
+            <img src="https://picsum.photos/1280/720?random={{$value['id']}}" alt="">
         </div>
         <div class="card-content">
             <a href=""><h3 class="card-title">{{$value->judul}}</h3></a>
